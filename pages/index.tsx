@@ -5,7 +5,6 @@ import ImageContainer from "../components/image-container";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import DesktopLayout from "../components/desktop-layout";
-import menuList from "../data/menuList.json";
 import Head from "next/head";
 
 export default function App() {
@@ -19,7 +18,7 @@ export default function App() {
         ></meta>
       </Head>
       <div id="home"></div>
-      <Menu classes="sticky w-full" menuList={menuList} />
+      <Menu classes="sticky w-full" />
       <Header />
       <div id="background"></div>
       <DesktopLayout>

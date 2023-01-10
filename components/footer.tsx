@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import graceLogo from "../public/images/grace-logo.jpg";
 
 const Footer = () => {
@@ -13,18 +14,18 @@ const Footer = () => {
         <ul className="flex flex-col gap-4 items-center text-lg md:items-end md:text-right">
           <li>
             Email:{" "}
-            <a
+            <Link
               className="text-blue py-2"
               href="mailto:info@gardenroutebotox.com"
             >
               info@gardenroutebotox.com
-            </a>
+            </Link>
           </li>
           <li>
             Tel:{" "}
-            <a className="text-blue py-2" href="tel:044 533 2415">
+            <Link className="text-blue py-2" href="tel:044 533 2415">
               044 533 2415
-            </a>
+            </Link>
           </li>
           <li>Plettenberg Bay</li>
           <li>Practice No: 1531905</li>
@@ -32,9 +33,9 @@ const Footer = () => {
       </div>
       <h6 className="text-lg my-3 text-center">
         ©{" "}
-        <a className="text-blue text-xl py-2" href="/">
+        <Link className="text-blue text-xl py-2" href="/">
           www.gardenroutebotox.com
-        </a>
+        </Link>
       </h6>
     </footer>
   );

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import contactImage from "../public/images/grace-1.jpg";
 import loopImage from "../public/images/loop.jpg";
 import facebookIcon from "../public/images/social/icons8-facebook-60.png";
@@ -21,24 +22,24 @@ const Contact = () => {
         <ul className="flex flex-col gap-4 text-lg items-center md:text-center md:justify-center">
           <li>
             Email:{" "}
-            <a
+            <Link
               className="text-blue py-2"
               href="mailto:info@gardenroutebotox.com"
             >
               info@gardenroutebotox.com
-            </a>
+            </Link>
           </li>
           <li>
             Tel:{" "}
-            <a className="text-blue py-2" href="tel:044 533 2415">
+            <Link className="text-blue py-2" href="tel:044 533 2415">
               044 533 2415
-            </a>
+            </Link>
           </li>
           <li>Fax: 044 533 4385</li>
           <li>Plettenberg Bay</li>
           <li>Practice No: 1531905</li>
           <li>
-            <a
+            <Link
               className=""
               href="https://www.facebook.com/GRACE-Garden-Route-Aesthetic-Centre-of-Excellence-1069855396509330/"
               target="_blank"
@@ -50,7 +51,7 @@ const Contact = () => {
                 alt="Facebook logo"
                 loading="lazy"
               />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
