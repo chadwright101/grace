@@ -1,6 +1,6 @@
 import DesktopLayout from "./desktop-layout";
 import Image from "next/image";
-import graceLogo from "../public/images/grace-logo.jpg";
+import graceLogo from "../public/images/grace-logo.png";
 import headerImage from "../public/images/grace-4.jpg";
 
 const Header = () => {
@@ -11,6 +11,7 @@ const Header = () => {
           className="h-[130px] w-[342px]"
           src={graceLogo}
           alt="Grace logo"
+          priority
         />
         <h3 className="text-xl text-center w-72 lg:w-96">
           Garden Route Aesthetic Centre of Excellence
@@ -21,6 +22,7 @@ const Header = () => {
           className="w-full h-full object-cover lg:-z-20 lg:relative"
           src={headerImage}
           alt="Older woman with smooth skin"
+          priority
         />
       </DesktopLayout>
     </div>

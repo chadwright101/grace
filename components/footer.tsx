@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import graceLogo from "../public/images/grace-logo.jpg";
+import graceLogo from "../public/images/grace-logo.png";
 
 const Footer = () => {
   return (
