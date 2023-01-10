@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "href": "#home"
+  },
+  {
+    "title": "Background",
+    "href": "#background"
+  },
+  {
+    "title": "Ownership",
+    "href": "#ownership"
+  },
+  {
+    "title": "Services",
+    "href": "#services"
+  },
+  {
+    "title": "Pricing",
+    "href": "#pricing"
+  },
+  {
+    "title": "Contact",
+    "href": "#contact"
+  }
+]
