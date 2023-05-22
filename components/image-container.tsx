@@ -25,6 +25,7 @@ const ImageContainer = ({
         loading="lazy"
         width={1024}
         height={682}
+        sizes="(max-width: 400px) 100vw, (max-width: 700px) 100vw, (max-width: 1000px) 100vw, 100vw"
       />
       <div className={`px-6 ${childrenClasses}`}>{children}</div>
     </>

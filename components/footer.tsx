@@ -5,14 +5,14 @@ import graceLogo from "../public/images/grace-logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="py-4 bg-veryLightPeach md:flex md:gap-12 md:px-6 md:justify-around md:items-center">
+      <div className="py-4 bg-veryLightPeach md:flex md:gap-12 md:px-6 md:justify-around md:items-center px-6">
         <Image
           className="hidden md:block h-[130px] w-[342px]"
           src={graceLogo}
           alt="Grace logo"
         />
         <ul className="flex flex-col gap-4 items-center text-lg md:items-end md:text-right">
-          <li>
+          <li className="flex flex-wrap items-center gap-x-1.5 justify-center">
             Email:{" "}
             <Link
               className="text-blue py-2"

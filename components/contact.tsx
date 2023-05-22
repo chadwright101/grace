@@ -17,10 +17,13 @@ const Contact = () => {
         <Image
           src={contactImage}
           alt="A woman holding here face showing signs of a facelift"
-          className="w-[397px] h-[420px] "
+          className="w-[397px] h-auto"
+          height={397}
+          width={420}
+          sizes="(max-width: 400px) 100vw, (max-width: 700px) 100vw, (max-width: 1000px) 100vw, 100vw"
         />
         <ul className="flex flex-col gap-4 text-lg items-center md:text-center md:justify-center">
-          <li>
+          <li className="flex flex-wrap items-center gap-x-1.5 justify-center">
             Email:{" "}
             <Link
               className="text-blue py-2"
