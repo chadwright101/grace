@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import contactImage from "../public/images/grace-1.jpg";
-import loopImage from "../public/images/loop.jpg";
 import facebookIcon from "../public/images/social/icons8-facebook-60.png";
 
 const Contact = () => {
@@ -9,7 +8,7 @@ const Contact = () => {
     <article className="flex flex-col gap-6 items-center mx-6 mt-12 mb-8">
       <Image
         className="w-24 h-[62px]"
-        src={loopImage}
+        src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/loop.jpg"
         alt="Grace loop graphic"
       />
       <h2 className="uppercase text-4xl">Contact</h2>

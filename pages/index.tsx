@@ -28,7 +28,7 @@ export default function App() {
           paragraph="Established in December 2017, Garden Route Aesthetic Centre of Excellence, hereafter referred to as GRACE,  was formed as a platform to provide for people's aesthetic needs from Plettenberg Bay and the greater Garden Route. GRACE is located in the Medico Baia Formosa Building, Muller street, Plettenberg Bay  – within DR J Donald and partners."
         />
         <ImageContainer
-          src="/images/grace-2.jpg"
+          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-2.jpg"
           alt="Young woman with beautiful skin"
           childrenClasses="py-6 bg-lightPeach xl:bg-white/0 xl:-mb-[305px]"
         >
@@ -78,7 +78,7 @@ export default function App() {
           </div>
         </TextBlock>
         <ImageContainer
-          src="/images/grace-3.jpg"
+          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-3.jpg"
           alt="Woman lying down holding her face"
           imageClasses="mb-12"
         />
