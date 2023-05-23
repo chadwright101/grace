@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import contactImage from "../public/images/grace-1.jpg";
-import facebookIcon from "../public/images/social/icons8-facebook-60.png";
 
 const Contact = () => {
   return (
@@ -14,7 +12,7 @@ const Contact = () => {
       <h2 className="uppercase text-4xl">Contact</h2>
       <div className="flex flex-col gap-12 md:flex-row lg:gap-24">
         <Image
-          src={contactImage}
+          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-1.jpg"
           alt="A woman holding here face showing signs of a facelift"
           className="w-[397px] h-auto"
           height={397}
@@ -49,7 +47,7 @@ const Contact = () => {
             >
               <Image
                 className="w-12 h-12 md:w-14 md:h-14 lg:w-10 lg:h-10 lg:hover:opacity-70"
-                src={facebookIcon}
+                src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/social/icons8-facebook-60.png"
                 alt="Facebook logo"
                 loading="lazy"
               />
