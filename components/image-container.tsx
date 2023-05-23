@@ -19,12 +19,12 @@ const ImageContainer = ({
   return (
     <>
       <Image
-        className={`w-full h-full lg:-z-20 lg:relative ${imageClasses}`}
+        className={`object-cover w-full h-auto lg:-z-20 lg:relative ${imageClasses}`}
         src={src}
         alt={alt}
         loading="lazy"
-        width={1024}
-        height={682}
+        width={1280}
+        height={700}
         sizes="(max-width: 400px) 100vw, (max-width: 700px) 100vw, (max-width: 1000px) 100vw, 100vw"
       />
       <div className={`px-6 ${childrenClasses}`}>{children}</div>

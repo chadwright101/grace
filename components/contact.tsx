@@ -8,6 +8,8 @@ const Contact = () => {
         className="w-24 h-[62px]"
         src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/loop.jpg"
         alt="Grace loop graphic"
+        width={100}
+        height={65}
       />
       <h2 className="uppercase text-4xl">Contact</h2>
       <div className="flex flex-col gap-12 md:flex-row lg:gap-24">
@@ -50,6 +52,8 @@ const Contact = () => {
                 src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/social/icons8-facebook-60.png"
                 alt="Facebook logo"
                 loading="lazy"
+                width={56}
+                height={56}
               />
             </Link>
           </li>

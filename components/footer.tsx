@@ -9,6 +9,8 @@ const Footer = () => {
           className="hidden md:block h-[130px] w-[342px]"
           src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-logo.png"
           alt="Grace logo"
+          width={342}
+          height={130}
         />
         <ul className="flex flex-col gap-4 items-center text-lg md:items-end md:text-right">
           <li className="flex flex-wrap items-center gap-x-1.5 justify-center">

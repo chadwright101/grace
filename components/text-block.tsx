@@ -15,6 +15,8 @@ const TextBlock = ({ heading, children, paragraph }: Props) => {
           className="w-24 h-[62px]"
           src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/loop.jpg"
           alt="Grace loop graphic"
+          width={100}
+          height={65}
         />
         <h2 className="uppercase text-4xl">{heading}</h2>
         <p className="text-justify text-lg">{paragraph}</p>
