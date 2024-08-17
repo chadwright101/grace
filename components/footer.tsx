@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="py-4 bg-veryLightPeach md:flex md:gap-12 md:px-6 md:justify-around md:items-center px-6">
         <Image
           className="hidden md:block h-[130px] w-[342px]"
-          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-logo.png"
+          src="/images/grace-logo.png"
           alt="Grace logo"
           width={342}
           height={130}

@@ -6,7 +6,7 @@ const Contact = () => {
     <article className="flex flex-col gap-6 items-center mx-6 mt-12 mb-8">
       <Image
         className="w-24 h-[62px]"
-        src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/loop.jpg"
+        src="/images/loop.jpg"
         alt="Grace loop graphic"
         width={100}
         height={65}
@@ -14,7 +14,7 @@ const Contact = () => {
       <h2 className="uppercase text-4xl">Contact</h2>
       <div className="flex flex-col gap-12 md:flex-row lg:gap-24">
         <Image
-          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/grace-1.jpg"
+          src="/images/grace-1.jpg"
           alt="A woman holding here face showing signs of a facelift"
           className="w-[397px] h-auto"
           height={397}
@@ -49,7 +49,7 @@ const Contact = () => {
             >
               <Image
                 className="w-12 h-12 md:w-14 md:h-14 lg:w-10 lg:h-10 lg:hover:opacity-70"
-                src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/social/icons8-facebook-60.png"
+                src="/images/social/icons8-facebook-60.png"
                 alt="Facebook logo"
                 loading="lazy"
                 width={56}

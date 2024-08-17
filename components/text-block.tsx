@@ -13,7 +13,7 @@ const TextBlock = ({ heading, children, paragraph }: Props) => {
       <div className="flex flex-col gap-6 items-center mx-6">
         <Image
           className="w-24 h-[62px]"
-          src="https://the-wright-designs-website-images.s3.af-south-1.amazonaws.com/grace/loop.jpg"
+          src="/images/loop.jpg"
           alt="Grace loop graphic"
           width={100}
           height={65}
