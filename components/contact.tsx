@@ -25,6 +25,7 @@ const Contact = () => {
           <li className="flex flex-wrap items-center gap-x-1.5 justify-center">
             Email:{" "}
             <Link
+              prefetch={false}
               className="text-blue py-2"
               href="mailto:info@gardenroutebotox.com"
             >
@@ -33,7 +34,11 @@ const Contact = () => {
           </li>
           <li>
             Tel:{" "}
-            <Link className="text-blue py-2" href="tel:044 533 2415">
+            <Link
+              prefetch={false}
+              className="text-blue py-2"
+              href="tel:044 533 2415"
+            >
               044 533 2415
             </Link>
           </li>
@@ -42,6 +47,7 @@ const Contact = () => {
           <li>Practice No: 1531905</li>
           <li>
             <Link
+              prefetch={false}
               className=""
               href="https://www.facebook.com/GRACE-Garden-Route-Aesthetic-Centre-of-Excellence-1069855396509330/"
               target="_blank"

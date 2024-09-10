@@ -32,7 +32,7 @@ const Menu = ({ classes }: Props) => {
           <ul className="flex flex-col items-center gap-y-5 text-xl py-4 border-b border-b-black font-MrsEaves md:w-64 md:bg-white/95 md:fixed md:top-0 md:right-0 -z-10 md:h-screen md:items-end md:pt-24 md:text-2xl">
             {menuList.map(({ title, href }, index) => (
               <li key={index}>
-                <Link className="py-2 px-6" href={href}>
+                <Link prefetch={false} className="py-2 px-6" href={href}>
                   {title}
                 </Link>
               </li>
@@ -44,7 +44,7 @@ const Menu = ({ classes }: Props) => {
       <ul className="hidden lg:flex fixed w-full bg-white justify-center py-2 font-MrsEaves text-xl drop-shadow-lg">
         {menuList.map(({ title, href }, index) => (
           <li key={index}>
-            <Link className="py-2 px-6" href={href}>
+            <Link prefetch={false} className="py-2 px-6" href={href}>
               {title}
             </Link>
           </li>

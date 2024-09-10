@@ -88,7 +88,7 @@ export default function App() {
           paragraph="We are aiming to keep our prices competitive in order to ensure a sustainable service to the local community. We offer free initial assessments with a 2 week follow up consultation. Once an initial assessment has been done including examination, treatment plan and consent the quote will be tailored to fit each patients individual and specific needs."
         >
           <p className="text-lg">
-            <Link className="text-blue" href="#contact">
+            <Link prefetch={false} className="text-blue" href="#contact">
               Contact
             </Link>{" "}
             us today for our full price list.

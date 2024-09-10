@@ -16,6 +16,7 @@ const Footer = () => {
           <li className="flex flex-wrap items-center gap-x-1.5 justify-center">
             Email:{" "}
             <Link
+              prefetch={false}
               className="text-blue py-2"
               href="mailto:info@gardenroutebotox.com"
             >
@@ -24,7 +25,11 @@ const Footer = () => {
           </li>
           <li>
             Tel:{" "}
-            <Link className="text-blue py-2" href="tel:044 533 2415">
+            <Link
+              prefetch={false}
+              className="text-blue py-2"
+              href="tel:044 533 2415"
+            >
               044 533 2415
             </Link>
           </li>
@@ -34,7 +39,7 @@ const Footer = () => {
       </div>
       <h6 className="text-lg my-3 text-center">
         ©{" "}
-        <Link className="text-blue text-xl py-2" href="/">
+        <Link prefetch={false} className="text-blue text-xl py-2" href="/">
           www.gardenroutebotox.com
         </Link>
       </h6>
